@@ -25,6 +25,3 @@ class Genre(Base):
     __tablename__ = "genre"
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     name: Mapped[str]
-
-async def async_main():
-    pass
